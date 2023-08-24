@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito&family=Ubuntu&family=Varela+Round&display=swap");
+@import "./Style/CommonClasses.css";
+@import "./Style/Variable.css";
 
 body {
   margin: 0;
