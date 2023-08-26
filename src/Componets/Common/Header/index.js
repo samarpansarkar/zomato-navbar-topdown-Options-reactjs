@@ -44,7 +44,7 @@ function Header() {
               />
             </div>
             <input
-              placeholder="Search for restaurant, cuisine or a dish"
+              placeholder="Search for restaurant, cuisine or a dish                              "
               className="search-input"
             />
           </div>
@@ -61,7 +61,7 @@ function Header() {
             <img
               src={downArrow}
               alt="down arrow"
-              className="header-profile-more  absolute-center "
+              className="header-profile-more absolute-center "
             />
           </i>
           </div>
