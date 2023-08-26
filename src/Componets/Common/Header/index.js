@@ -1,5 +1,6 @@
 import React from "react";
 import "./Header.css";
+
 import locationIcon from "../../../Icons/locationIcon.png";
 import caretDown from "../../../Icons/caret-down.png";
 import searchBar from "../../../Icons/searchIcon.png";
