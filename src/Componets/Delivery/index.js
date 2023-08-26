@@ -2,15 +2,10 @@ import React from "react";
 import "./Delivery.css";
 import Filters from "./../Common/Filters/index";
 
-import filterIcon from '../../Icons/filterIcon.png';
-import clockIcon from '../../Icons/clock.png';
-
-
 
 const deliveryFilters = [
   {
     id: 1,
-    Image: `{${filterIcon}}`,
     title: "filters",
   },
   {
@@ -28,7 +23,6 @@ const deliveryFilters = [
   {
     id: 5,
     title: "Delivery Time",
-    Image: {clockIcon},
   },
   {
     id: 6,

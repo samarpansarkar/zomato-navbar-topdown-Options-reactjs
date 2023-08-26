@@ -38,6 +38,7 @@ function TabOption({ activeTab, setActiveTab }) {
         {tabs.map((tab) => {
           return(
             <div
+            key={tab.id}
             onClick={() => setActiveTab(tab.name)}
             className={`tab-item absolute-center cursor:pinter ${
               activeTab === tab.name && "active-tab"
